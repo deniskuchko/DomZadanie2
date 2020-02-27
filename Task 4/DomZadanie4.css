@@ -1,0 +1,89 @@
+img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    }
+header {
+    height: 10%;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #A9E2F377;
+	border: 3px solid #58D3F7;
+    text-align: center;
+    position: fixed;
+	top: 0;
+    left: 0;
+    }
+header:hover {background-color: rgb(0, 191, 0)
+    }
+
+header > h1{
+	color: #2E64FE;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 30px;
+    }
+
+.header-left{
+    max-width: 25%;
+    height: 80%;
+    position: absolute;
+    left: 1%;
+	top: 10%;
+    }
+
+.header-right{
+       
+    max-width: 25%;
+    height: 80%;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    }
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12vh;
+    margin-bottom: 50px;
+    border-left: 3px solid rgb(255, 0, 179);
+	border-right: 3px solid rgb(255, 0, 179);
+    background-color: rgb(243, 232, 190);
+    }
+
+.content-left{
+    flex-basis: 50%;
+    padding-left: 15%;
+    padding-right: 2%;
+	text-align: left;
+    }
+
+.content-right{
+    flex-basis: 50%;
+    padding-left: 2%;
+    padding-right: 15%;
+	text-align: left;
+    }
+
+footer{
+	max-height: 15%;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: rgba(57, 115, 133, 0.5);
+	border: 3px solid #58D3F7;
+    text-align: center;
+    }
+
+footer:hover{
+    background-color: rgba(169, 226, 243, 1.0);
+    }
+
+.copyright-string{
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    }

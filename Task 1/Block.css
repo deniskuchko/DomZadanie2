@@ -1,0 +1,41 @@
+.block {
+    
+    height: 100%;
+    width: 100%;
+    }
+.blockVX{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+.block1 {
+    background: rgb(107, 204, 10);
+    width: 98%;
+    min-height: 38vh;
+    margin: 0 auto;
+    }
+
+.block2 {
+    background: orange;
+    flex-basis: 48%;
+    min-height: 10vh;
+    margin: 0 auto;
+    }
+
+.block3 {
+    background-color: rgb(68, 0, 255);
+    flex-basis: 32%;
+    min-height: 18vh;
+    margin: 0 auto;
+    }
+
+.block4 {
+    background: rgb(202, 203, 206);
+    flex-basis: 24%;
+    min-height: 15vh;
+    margin: 0 auto;
+    }
+

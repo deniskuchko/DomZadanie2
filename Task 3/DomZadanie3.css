@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(243, 236, 222);
+    height: 15%;
+    margin-left:5%;
+    margin-right:5%; 
+    text-align: center;
+    border: 3px solid rgb(178, 232, 248);
+	border-radius: 0 0 15px 15px;
+    }
+    
+header > h1{
+    color: rgb(33, 71, 175);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;}
+
+.menu{width: 10%;
+    height: 300px;
+    position: fixed;
+    top: 17.5%;
+    left: 5.5%;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+    background: rgba(44, 188, 245, 0.5);
+    }
+
+.content{
+    background-color: rgb(233, 139, 139);
+    
+    padding: 10px;
+    margin-left:15%;
+	margin-right:5%;
+	margin-top: -1px;
+    margin-bottom: 0px;
+    min-height: 301px;
+    
+    }
+footer{
+    border-radius: 20px 20px 0px 0;
+    background-color: rgba(4, 99, 136, 0.5);
+    
+    height: 15%;
+    margin-left:5%;
+    margin-right:5%; 
+    margin-top: -21px;
+    text-align: center;
+    }
